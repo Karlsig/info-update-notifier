@@ -11,6 +11,9 @@ html, body{
     color: #FFF;
     font-size: 150%;
 }
+#navbar-logo{
+    color: #FFF;
+}
 .navbar-default .navbar-nav li a .navbar-brand {
     color: #D5D5D5;
 }
@@ -25,11 +28,16 @@ html, body{
     position: relative;
     width: 100%;
     background-size: cover;
+    
+}
+#home-h3{
+    
 }
 .landing-text {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+    padding: 0 20% 0 20%;
 }
 .landing-text h1 {
     font-size: 400%;
@@ -41,6 +49,10 @@ footer {
     background-color: #23415C;
     padding: 5% 5% 10% 5%;
     color: #FFF;
+}
+#footer-logo {
+    color: #FFF;
+    font-size: 400%;
 }
 .fa {
     padding: 15px;
@@ -56,6 +68,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .landing-text {
+        padding: 0%;
+    }
     .landing-text h1 {
         font-size: 300%;
     }
