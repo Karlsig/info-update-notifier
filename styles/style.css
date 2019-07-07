@@ -30,9 +30,6 @@ html, body{
     background-size: cover;
     
 }
-#home-h3{
-    
-}
 .landing-text {
     display: table-cell;
     text-align: center;
@@ -47,7 +44,7 @@ html, body{
 footer {
     width: 100%;
     background-color: #23415C;
-    padding: 5% 5% 10% 5%;
+    padding: 5% 5% 6% 5%;
     color: #FFF;
 }
 #footer-logo {
@@ -113,6 +110,17 @@ footer {
     border-top-right-radius: 0;
   }
   .sign-in-body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+
+  .padding {
+    height: 100%;
+    width: 100%;
+    padding: 80px 0;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
